@@ -6,7 +6,7 @@ export default function AboutSection() {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-4">
-          Sobre <span className="text-yellow-400">Nosotros</span>
+          ¿Por qué Elegir Salvamentos y Usados?
         </h2>
         <p className="text-center text-gray-600 mb-12 max-w-3xl mx-auto text-lg">
           Somos una empresa colombiana especializada en la compra y venta de
@@ -40,9 +40,9 @@ export default function AboutSection() {
         </div>
 
         <div className="bg-black text-white p-12 rounded-lg">
-          <h3 className="text-3xl font-bold mb-6 text-yellow-400">
-            ¿Por qué elegirnos?
-          </h3>
+          <h2 className="text-3xl font-bold mb-6 text-yellow-400">
+            Ventajas de Comprar con Nosotros
+          </h2>
           <ul className="grid md:grid-cols-2 gap-6">
             <li className="flex items-start gap-3">
               <span className="text-yellow-400 text-2xl">✓</span>

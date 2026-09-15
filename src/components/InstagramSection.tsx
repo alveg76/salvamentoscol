@@ -18,7 +18,7 @@ export default function InstagramSection() {
             <div className="flex flex-col md:flex-row items-center justify-between gap-8">
               <div>
                 <h3 className="text-3xl md:text-4xl font-bold mb-4">
-                  📱 Síguenos en Instagram
+                  Síguenos en Instagram para Nuevas Publicaciones
                 </h3>
                 <p className="text-lg mb-6">
                   Actualizamos nuestro catálogo diariamente con nuevos vehículos

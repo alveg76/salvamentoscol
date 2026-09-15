@@ -13,7 +13,7 @@ export default function HeroSection() {
           <div className="space-y-8">
             <div className="space-y-4">
               <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
-                Compra y Venta de Vehículos Usados y Salvamentos
+                Compra y Venta de Vehículos Usados y Salvamentos en Colombia
               </h1>
               <p className="text-lg text-gray-600">
                 Más de 8 años de experiencia ofreciendo la mejor asesoría en el sector
