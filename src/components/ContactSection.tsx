@@ -16,7 +16,7 @@ export default function ContactSection() {
         </div>
 
         {/* Contact Methods Grid */}
-        <div className="grid md:grid-cols-2 gap-8 mx-auto max-w-3xl">
+        <div className="grid md:grid-cols-3 gap-8 mx-auto max-w-4xl">
           {/* Phone */}
           <div className="bg-white p-8 rounded-lg shadow-sm text-center">
             <h3 className="text-xl font-bold text-gray-900 mb-4">Teléfono</h3>
@@ -47,6 +47,25 @@ export default function ContactSection() {
             >
               Escribir a WhatsApp
             </a>
+          </div>
+
+          {/* Address */}
+          <div className="bg-white p-8 rounded-lg shadow-sm text-center">
+            <h3 className="text-xl font-bold text-gray-900 mb-4">Dirección</h3>
+            <div className="space-y-2">
+              <p className="text-lg text-gray-700 font-semibold">
+                Calle 76 No 60 - 25
+              </p>
+              <p className="text-lg text-gray-700">Bogotá, Colombia</p>
+              <a
+                href="https://maps.google.com/maps/search/Calle+76+No+60-25+Bogota+Colombia"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block text-yellow-600 font-bold hover:text-yellow-700 mt-4 text-sm"
+              >
+                Ver en Google Maps
+              </a>
+            </div>
           </div>
         </div>
 
