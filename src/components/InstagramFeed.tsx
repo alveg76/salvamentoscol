@@ -24,6 +24,17 @@ export default function InstagramFeed() {
           }
         }}
       />
+      {/* 
+        NOTA SEO: Este widget de Instagram muestra contenido dinámicamente vía iframe.
+        Para mejor indexación SEO, asegúrate de que:
+        
+        1. Las imágenes en tu Instagram tengan descripciones detalladas
+        2. Usa hashtags relevantes: #vehículosusados #salvamentos #bogotá #colombia
+        3. Cada publicación debe incluir especificaciones del vehículo
+        
+        Las fichas de vehículos en la sección Catálogo son el contenido 
+        principal indexable que Google rastrea.
+      */}
       <div
         className="elfsight-app-c79262e8-b0d1-495e-811c-7700bc472df9 w-full"
         data-elfsight-app-lazy
