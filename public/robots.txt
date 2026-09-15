@@ -1,0 +1,18 @@
+# Permitir a todos los buscadores rastrear el sitio
+User-agent: *
+Allow: /
+Disallow: /_next/
+Disallow: /api/
+
+# Indica a los buscadores donde está el sitemap
+Sitemap: https://salvamentoscol.vercel.app/sitemap.xml
+
+# Especificaciones adicionales para Google
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+# Especificaciones para otros buscadores
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
