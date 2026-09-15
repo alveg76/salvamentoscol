@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import SchemaMarkup from "@/components/SchemaMarkup";
 
 export const metadata: Metadata = {
   title: "Salvamentos y Usados | Compra y Venta de Vehículos en Colombia",
@@ -13,6 +14,9 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="es">
+      <head>
+        <SchemaMarkup />
+      </head>
       <body className="bg-white text-gray-900">{children}</body>
     </html>
   );
