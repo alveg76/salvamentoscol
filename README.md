@@ -1,34 +1,75 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Salvamentos y Usados - Sitio Web 🚗
 
-## Getting Started
+Sitio web profesional para **Salvamentos y Usados**, empresa colombiana especializada en compra y venta de vehículos usados y salvamentos.
 
-First, run the development server:
+## ✨ Características
+
+- ✅ Diseño moderno y responsivo (mobile-first)
+- ✅ Colores corporativos (Amarillo #FFD700 y Negro)
+- ✅ Integración con redes sociales (Instagram, Facebook, TikTok)
+- ✅ Sección de contacto con WhatsApp, teléfono y redes
+- ✅ Catálogo vinculado a Instagram
+- ✅ SEO optimizado
+- ✅ Performance optimizado con Next.js 16
+
+## 📱 Datos de Contacto
+
+- **Teléfono 1:** 300 6588572
+- **Teléfono 2:** 315 5207311
+- **WhatsApp:** https://wa.me/573155207311 o https://wa.me/573006588572
+- **Instagram:** [@salvamentos.y.usados.oficial](https://www.instagram.com/salvamentos.y.usados.oficial)
+- **Facebook:** [Salvamentos y Usados](https://www.facebook.com/share/1CkG4KsYuF/)
+- **TikTok:** [@salvamentosyusados](https://www.tiktok.com/@salvamentosyusados)
+
+## 🛠 Tecnologías
+
+- **Next.js 16** - Framework React
+- **TypeScript** - Tipado estático
+- **Tailwind CSS** - Estilos CSS
+- **React Icons** - Iconografía
+
+## 🚀 Desarrollo Local
+
+### Requisitos
+- Node.js 18+
+- npm o yarn
+
+### Instalación
 
 ```bash
+cd c:\salva
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abre [http://localhost:3000](http://localhost:3000) en tu navegador.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🏗 Construcción para Producción
 
-## Learn More
+```bash
+npm run build
+npm start
+```
 
-To learn more about Next.js, take a look at the following resources:
+## 📁 Estructura de Carpetas
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+src/
+├── app/
+│   ├── layout.tsx        # Layout principal
+│   ├── page.tsx          # Página de inicio
+│   ├── globals.css       # Estilos globales
+├── components/
+│   ├── Header.tsx
+│   ├── HeroSection.tsx
+│   ├── AboutSection.tsx
+│   ├── InstagramSection.tsx
+│   ├── ContactSection.tsx
+│   └── Footer.tsx
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🎨 Colores Corporativos
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Amarillo:** #FFD700
+- **Negro:** #1a1a1a
+- **Blanco:** #ffffff
